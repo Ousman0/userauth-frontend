@@ -24,10 +24,10 @@ const Profile = () => {
       try {
         const response = await getUserDetails(token);
         console.log(response.data)
-        setUserDetails(response.data); // Assuming response has user data
+        setUserDetails(response.data); 
       } catch (error) {
         console.error('Error fetching user details:', error);
-        // Optionally redirect to login or display an error
+        //  redirect to login 
         navigate('/');
       } finally {
         setLoading(false);
@@ -38,7 +38,6 @@ const Profile = () => {
 
 
   const handleLogout = () => {
-    // Remove token from local storage
     localStorage.removeItem('token');
     // Redirect to login page
     navigate('/');

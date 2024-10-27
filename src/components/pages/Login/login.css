@@ -1,24 +1,24 @@
-/* src/pages/Login.css */
+
 
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f0f2f5; /* Light gray background */
+    background-color: #f0f2f5;
 }
 
 .login-container {
     max-width: 400px;
-    margin: 100px auto; /* Centering the container */
+    margin: 100px auto; 
     padding: 20px;
-    background-color: white; /* White background for the form */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: white; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
 .login-title {
     text-align: center;
-    color: #333; /* Darker text color */
+    color: #333;
     margin-bottom: 20px;
 }
 
@@ -28,51 +28,51 @@ body {
 }
 
 .form-group {
-    margin-bottom: 15px; /* Spacing between form elements */
+    margin-bottom: 15px; 
 }
 
 label {
     margin-bottom: 5px;
-    color: #555; /* Lighter text color for labels */
+    color: #555; 
 }
 
 .form-input {
     padding: 10px;
-    border: 1px solid #ccc; /* Border color */
-    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc;
+    border-radius: 5px; 
     font-size: 14px;
     width: 90%;
 }
 
 .form-input:focus {
-    border-color: #007bff; /* Change border color on focus */
-    outline: none; /* Remove outline */
+    border-color: #007bff; 
+    outline: none; 
 }
 
 .login-button {
     padding: 10px;
-    background-color: #007bff; /* Primary button color */
-    color: white; /* Text color for button */
+    background-color: #007bff; 
+    color: white; 
     border: none;
     border-radius: 5px;
     font-size: 16px;
-    cursor: pointer; /* Change cursor on hover */
+    cursor: pointer; 
 }
 
 .login-button:hover {
-    background-color: #0056b3; /* Darker button color on hover */
+    background-color: #0056b3;
 }
 
 .signup-prompt {
     text-align: center;
-    margin-top: 15px; /* Spacing from the form */
+    margin-top: 15px;
 }
 
 .signup-prompt a {
-    color: #007bff; /* Link color */
-    text-decoration: none; /* Remove underline from link */
+    color: #007bff; 
+    text-decoration: none;
 }
 
 .signup-prompt a:hover {
-    text-decoration: underline; /* Underline link on hover */
+    text-decoration: underline; 
 }

@@ -28,18 +28,7 @@ const Signup = () => {
   return (
 
     <>
-    {/* <div>
-      <h2>Signup</h2>
-      <form onSubmit={handleSignup}>
-        <label>Username:</label>
-        <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} required />
-        <label>email:</label>
-        <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
-        <label>Password:</label>
-        <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required />
-        <button type="submit">Sign Up</button>
-      </form>
-    </div> */}
+   
 
 
 
